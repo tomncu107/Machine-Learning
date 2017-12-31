@@ -30,12 +30,12 @@ from sklearn.cluster import KMeans
 # 讀取百貨資料
 # (1) CHANNEL: Horeca(1) or Retail(2)
 # (2) REGION: Lisnon(1), Oporto(2) or Other(3)
-# (1) FRESH: annual spending (m.u.) on fresh products (Continuous);
-# (2) MILK: annual spending (m.u.) on milk products (Continuous);
-# (3) GROCERY: annual spending (m.u.)on grocery products (Continuous);
-# (4) FROZEN: annual spending (m.u.)on frozen products (Continuous)
-# (5) DETERGENTS_PAPER: annual spending (m.u.) on detergents and paper products (Continuous)
-# (6) DELICATESSEN: annual spending (m.u.)on and delicatessen products (Continuous);
+# (3) FRESH: annual spending (m.u.) on fresh products (Continuous);
+# (4) MILK: annual spending (m.u.) on milk products (Continuous);
+# (5) GROCERY: annual spending (m.u.)on grocery products (Continuous);
+# (6) FROZEN: annual spending (m.u.)on frozen products (Continuous)
+# (7) DETERGENTS_PAPER: annual spending (m.u.) on detergents and paper products (Continuous)
+# (8) DELICATESSEN: annual spending (m.u.)on and delicatessen products (Continuous);
 #--------------------------------------------------------------------------------------------
 data=np.genfromtxt('data\wholesale.csv', delimiter=',')
 
